@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exemplo de formulario</title>
+</head>
+<body>
+    <form action="#" method="get" autocomplete="on">
+        <div> 
+            
+            <label for="produto"></label>
+            <input type="text" id="produto" name="produto">
+        
+        </div>
+
+        <div>
+            <input type="radio" name="sexo" value="m">masculino
+            <input type="radio" name="sexo" value="f">feminino
+        </div>
+
+
+        <div>
+            <input type="radio" name="turno" value="m">matutino
+            <input type="radio" name="turno" value="v">vespetino
+            <input type="radio" name="turno" value="n">noturno
+        </div>
+
+        <div>
+            <input type="checkbox" id="natacao" name="esporte[]" value="Natacao">
+            <label for="natacao">Natacao</label>
+            <input type="checkbox" id="corrida" name="esporte[]" value="Corrida">
+            <label for="corrida">Corrida</label>
+            <input type="checkbox" id="futebol" name="esporte[]" value="Futebol">
+            <label for="futebol">futebol</label>
+        </div>
+
+        <div>
+            <input type="date">
+        </div>
+
+        <button>enviar</button>
+        <input type="reset"value="limpar" >
+
+    </form>
+</body>
+</html>
